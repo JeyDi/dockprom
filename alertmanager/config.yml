@@ -6,6 +6,6 @@ receivers:
       slack_configs:
           - send_resolved: true
             text: "{{ .CommonAnnotations.description }}"
-            username: 'Prometheus'
-            channel: '#<channel-name>'
-            api_url: 'https://hooks.slack.com/services/<webhook-id>'
+            username: 'AI-Server'
+            channel: '#production_tracking'
+            api_url: 'https://hooks.slack.com/services/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'
